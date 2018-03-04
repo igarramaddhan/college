@@ -1,0 +1,24 @@
+
+body{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+}
+
+#optionSection {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background: yellow;
+	height: 100vh;
+}
+#imageSection {
+	flex: 5;
+	display: flex;
+	background: green;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
